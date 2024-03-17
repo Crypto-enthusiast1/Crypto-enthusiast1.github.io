@@ -4,6 +4,7 @@ html {
 
 body {
    background: url(../img/photo1.JPG) center center/cover no-repeat;
+   transition: all 1s;
 }
 
 a {
