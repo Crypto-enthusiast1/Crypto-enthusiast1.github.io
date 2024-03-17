@@ -13,8 +13,9 @@ a {
 
 .description {
    position: absolute;
+   word-break: break-all;
    bottom: 100px;
-   left: 50%;
+   left: 35%;
    right: 20px;
    font-size: 16px;
    text-align: right;
