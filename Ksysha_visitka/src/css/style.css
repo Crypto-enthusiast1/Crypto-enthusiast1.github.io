@@ -1,0 +1,7 @@
+body {
+   background: url(../img/mobile_bg.png) center center/cover no-repeat;
+}
+
+.description {
+   font-size: 14px;
+}
