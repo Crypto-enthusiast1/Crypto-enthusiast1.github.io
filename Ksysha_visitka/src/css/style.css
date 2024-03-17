@@ -11,6 +11,11 @@ a {
    color: inherit;
 }
 
+span {
+   text-decoration: none;
+   color: inherit;
+}
+
 .description {
    position: absolute;
    bottom: 100px;
