@@ -14,7 +14,7 @@ a {
 
 .description {
    position: absolute;
-   word-break: break-all;
+   overflow-wrap: break-word;
    bottom: 100px;
    left: 35%;
    right: 20px;
