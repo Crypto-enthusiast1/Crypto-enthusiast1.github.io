@@ -6,10 +6,16 @@ body {
    background: url(../img/photo1.JPG) center center/cover no-repeat;
 }
 
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
 .description {
    position: absolute;
    bottom: 100px;
    left: 50%;
+   right: 20px;
    font-size: 16px;
    text-align: right;
    color: white;
