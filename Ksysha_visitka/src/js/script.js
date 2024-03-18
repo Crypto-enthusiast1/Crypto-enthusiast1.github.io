@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       index = (index + 1) % images.length;
       if (index > 1) {
          descr.innerHTML = `Representative of the Dnipropetrovsk Association of Local Governments and the Dnipropetrovsk Region in the Alliance of the EU Committee of the Regions. </br> </br>
-         + 32 470 50 42 33 </br>
+         <a href="tel:+32470504233"> +32 470 50 42 33</a></br>
          dniprorada.bruxelles@gmail.com`
       } else {
          descr.innerHTML = `
