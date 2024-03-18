@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
          descr.innerHTML = `
          Head of business hub </br>
-         +32 470 50 42 33</br>
+         <a href="tel:+32470504233"> +32 470 50 42 33</a></br>
          dir.bsnshub.bruxelles@gmail.com </br></br>
 
          Your representative in Europe, who is no less interested in your success than you are!`
