@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
       if (index > 1) {
          descr.innerHTML = `Representative of the Dnipropetrovsk Association of Local Governments and the Dnipropetrovsk Region in the Alliance of the EU Committee of the Regions. </br> </br>
          <a href="tel:+32470504233"> +32 470 50 42 33</a></br>
-         dniprorada.bruxelles@gmail.com`
+         <a href="mailto:dir.bsnshub.bruxelles@gmail.com">dir.bsnshub.bruxelles@gmail.com</a>`
       } else {
          descr.innerHTML = `
          Head of business hub </br>
          <a href="tel:+32470504233"> +32 470 50 42 33</a></br>
-         dir.bsnshub.bruxelles@gmail.com </br></br>
+         <a href="mailto:dir.bsnshub.bruxelles@gmail.com">dir.bsnshub.bruxelles@gmail.com</a> </br></br>
 
          Your representative in Europe, who is no less interested in your success than you are!`
       }
