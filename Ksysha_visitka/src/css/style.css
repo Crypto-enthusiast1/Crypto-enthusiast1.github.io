@@ -24,6 +24,28 @@ a {
    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
+.descr_photo2 {
+   font-weight: 600;
+   max-width: 45%;
+   top: 100px;
+   left: 2% !important;
+   font-size: 17px;
+   text-align: left;
+   color: black;
+   animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.descr_photo3 {
+   font-weight: 600;
+   max-width: 30%;
+   top: 3px;
+   left: 10% !important;
+   font-size: 17px;
+   text-align: left;
+   color: black;
+   animation: fadeIn 1.5s ease-in-out forwards;
+}
+
 @keyframes fadeIn {
    from {
       opacity: 0;

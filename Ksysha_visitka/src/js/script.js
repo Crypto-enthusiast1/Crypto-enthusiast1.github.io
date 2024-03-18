@@ -17,6 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
          Your representative in Europe, who is no less interested in your success than you are!`
       }
+
+      switch (index) {
+         case 2:
+            descr.classList.remove('descr_photo3')
+            descr.classList.add('descr_photo2')
+            break;
+         case 3:
+            descr.classList.remove('descr_photo2')
+            descr.classList.add('descr_photo3')
+            break;
+         default:
+            descr.classList.remove('descr_photo2', "descr_photo3")
+      }
    }
 
    changeImg();
