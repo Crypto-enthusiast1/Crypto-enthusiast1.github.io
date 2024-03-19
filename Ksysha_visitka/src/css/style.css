@@ -27,23 +27,29 @@ a {
 .descr_photo2 {
    font-weight: 600;
    max-width: 45%;
+   height: max-content;
    top: 100px;
-   left: 2% !important;
+   left: 2%;
    font-size: 17px;
    text-align: left;
    color: black;
    animation: fadeIn 1.5s ease-in-out forwards;
+   border-radius: 20%;
 }
 
 .descr_photo3 {
+
    font-weight: 600;
-   max-width: 30%;
+   max-width: 33%;
+   /* background-color: rgba(255, 255, 255, 0.8); */
+   height: max-content;
    top: 3px;
-   left: 10% !important;
-   font-size: 17px;
+   left: 2%;
+   font-size: 18px;
    text-align: left;
    color: black;
    animation: fadeIn 1.5s ease-in-out forwards;
+   border-radius: 20%;
 }
 
 @keyframes fadeIn {

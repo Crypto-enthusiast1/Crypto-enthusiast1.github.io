@@ -34,5 +34,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
    changeImg();
 
-   setInterval(changeImg, 10000);
+   setInterval(changeImg, 5000);
 });
