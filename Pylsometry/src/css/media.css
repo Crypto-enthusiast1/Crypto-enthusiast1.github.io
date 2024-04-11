@@ -1,0 +1,333 @@
+@media(max-width:992px) {
+   .container {
+      max-width: 870px;
+   }
+
+   .carousel__inner {
+      position: relative;
+      width: 750px;
+      margin: 0 auto;
+   }
+
+   .carousel__inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   .catalog {
+      padding: 0 20px 0 20px;
+   }
+
+   .item__reviews {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .review__text {
+      text-align: center;
+   }
+
+   .img__client {
+      margin: 0 0 15px;
+   }
+
+   .review__text {
+      width: auto;
+   }
+
+   .contacts {
+      width: 390px;
+      height: 245px;
+      padding: 25px 0 0 0;
+   }
+
+}
+
+@media(max-width:767px) {
+   .promo {
+      padding: 21px 15px 93px 15px;
+   }
+
+   .promo__header {
+      font-size: 38px;
+   }
+
+   .promo__subheader {
+      font-size: 21px;
+   }
+
+   .advantages__list {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-bottom: 50px;
+   }
+
+   .advantages__item {
+      margin-bottom: 20px;
+   }
+
+   .container {
+      max-width: 680px;
+   }
+
+   .header__logo {
+      width: 33%;
+   }
+
+   .header__official {
+      width: 33%;
+      font-size: 12px;
+   }
+
+   .header__official span {
+      font-size: 17px;
+   }
+
+   .consultation {
+      padding: 50px 0 54px 20px;
+      min-height: 580px;
+   }
+
+   .consultation__header {
+      font-size: 22px;
+   }
+
+   .consultation__subheader {
+      font-size: 18px;
+   }
+
+   .carousel__inner {
+      width: 555px;
+   }
+
+   .catalog__btn {
+      font-size: 15px;
+   }
+
+   .all__btn {
+      font-size: 18px;
+   }
+
+   .review__text {
+      width: auto;
+   }
+
+   .contacts {
+      width: 320px;
+      height: 190px;
+   }
+
+   .contacts__adress {
+      margin-bottom: 25px;
+      font-size: 18px;
+   }
+
+   .contacts__phone {
+      font-size: 18px;
+   }
+
+   .contacts__social {
+      margin-top: 25px;
+   }
+
+   footer {
+      height: 450px;
+   }
+
+   .google-map {
+      height: 450px;
+   }
+}
+
+@media(max-width:575px) {
+   .promo {
+      padding: 21px 10px 93px 10px;
+   }
+
+   .header {
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .header__logo {
+      width: 160px;
+   }
+
+   .container {
+      max-width: 540px;
+   }
+
+   .header__official {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 13px;
+      order: 1;
+   }
+
+   .header__official span {
+      font-size: 16px;
+   }
+
+   .header__contacts {
+      width: 46%;
+   }
+
+   .header__phone {
+      font-size: 14px;
+   }
+
+   .button {
+      width: 135px;
+   }
+
+   .promo__header {
+      font-size: 25px;
+      margin: 0 auto;
+   }
+
+   .promo__subheader {
+      font-size: 18px;
+      text-align: center;
+      margin: 0 auto;
+   }
+
+   .promo__icons {
+      width: 100%;
+      justify-content: center;
+   }
+
+   .promo__icon {
+      font-size: 13px;
+   }
+
+   .button__main {
+      width: 240px;
+      margin: 68px auto 10px auto;
+   }
+
+   .promo__link {
+      margin: 0 auto;
+   }
+
+   .header__official span {
+      font-size: 16px;
+   }
+
+   .advantages {
+      padding-bottom: 0px;
+   }
+
+   .advantages__item {
+      margin-bottom: 40px;
+   }
+
+   .advantage__header {
+      font-size: 25px;
+   }
+
+   .item__header {
+      margin: 15px 0 15px 0;
+   }
+
+   .consultation__header {
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+   }
+
+   .consultation__subheader {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+   }
+
+   .consultation {
+      min-height: 530px;
+      padding-left: 0px
+   }
+
+   .form-consultation {
+      margin: 36px auto 0px;
+   }
+
+   .carousel__inner {
+      width: 300px;
+   }
+
+   li.slick-active::before {
+      font-size: 30px;
+      left: 15px;
+   }
+
+   .catalog__buttons {
+      display: none;
+   }
+
+   .catalog__dropmenu {
+      display: block;
+      text-align: center;
+   }
+
+   .btn-secondary {
+      --bs-btn-bg: #c70101;
+      --bs-btn-active-bg: #fff;
+      --bs-btn-active-color: #000;
+   }
+
+   .btn-secondary:hover {
+      background-color: initial;
+      color: initial;
+      border-color: initial;
+   }
+
+   .all__btn {
+      font-size: 22px;
+   }
+
+   .item__prices {
+      width: 50%
+   }
+
+   .item__buy {
+      width: 50%;
+   }
+
+   .item__new-price {
+      font-size: 18px;
+   }
+
+   .review__descr {
+      max-height: 4em;
+      overflow: hidden;
+   }
+
+   .show {
+      max-height: 600px;
+   }
+
+   .toggle__btn {
+      display: inline-block;
+   }
+
+   .contacts {
+      width: 260px;
+      height: 170px;
+      opacity: 0.8;
+   }
+
+   .contacts__adress {
+      margin-bottom: 10px;
+      font-size: 14px;
+   }
+
+   .contacts__phone {
+      font-size: 14px;
+   }
+
+   .social__item {
+      width: 40px;
+      height: 40px;
+   }
+
+}
