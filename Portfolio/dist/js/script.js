@@ -55,6 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
    setWidth();
 
+   //Scroll up
+
+   $(window).scroll(function () {
+      if ($(this).scrollTop() > 1200) {
+         $('.arrowup').fadeIn()
+      } else {
+         $('.arrowup').fadeOut()
+      }
+   })
 
 
 
